@@ -30,6 +30,10 @@ O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que co
 
 (3) Depois, devemos acessar a pasta do projeto "app" `cd app` executamos o comando `npm install` para baixar as dependências.
 
+(5) Para subir o `express`, basta executar o comando `npm start` no diretório `app`
+
+(6) Acessar o navegador, na pasta `localhost:3000`
+
 ## Ensinamentos
 
 Descrever.....
