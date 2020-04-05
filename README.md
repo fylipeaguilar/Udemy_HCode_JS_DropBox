@@ -21,6 +21,8 @@ Para não subir arquivos desnecessários, a configuração do layout do frontend
   - que copiar o nosso arquivo (index.html) para a pastas `app/views`;
   - apagar o arquivo "index.ejs" do diretório `app/views`;
   - renomear o arquivo `index.html` para `index.ejs`
+  
+ (5) Instalando o formidable: `npm install formidable --save`
 
 ### Backend - Express
 
@@ -35,6 +37,21 @@ O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que co
 (6) Acessar o navegador, na pasta `localhost:3000`
 
 ## Ensinamentos
+
+ - <b>Seleção de elemento HTML</b>: document.querySelector('#id')
+ - <b>Adicionar eventos de click</b>: addEventListener('click', event => {})
+ - <b>Adicionar eventos de mudança de arquivos</b>: addEventListener('change', event => {})
+ - <b>Exibição de modal</b>: (elementoHMTL).<b>style.display = 'block'</b>
+ - <b>Promises</b>: new Promise((resolve, reject ) => {}) / Promise.all(promise)
+ - <b>Uso do Ajax para requisições</b>: XMLHttpRequest() /  ajax.open('param', 'param') / ajax.onload / ajax.onerror / ajax.send
+ - <b>formData</b>: Para ler os aquivos da API FormData / formData.append('elementoHMTL', variável)
+ - <b>formidable</b>: usado para .... 
+ - <b>ajax.upload.onprogress</b>: Para calcular a progresso de envio de um arquivo
+ - <b></b>:
+ 
+ 
+ 
+ 
 
 Descrever.....
 
