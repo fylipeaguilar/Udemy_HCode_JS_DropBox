@@ -8,8 +8,6 @@ O projeto tem o objeto de .......
 
 Abaixo estou listando os comando para instalar e configurar as dependências do front e backend.
 
-<hr>
-
 ### Frontend - Bower
 
 Para não subir arquivos desnecessários, a configuração do layout do frontend está no arquivo "bower.json". 
@@ -26,8 +24,6 @@ Para não subir arquivos desnecessários, a configuração do layout do frontend
   
  (5) Instalando o formidable: `npm install formidable --save`
 
-<hr>
-
 ### Backend - Express
 
 O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que configura os arquivos principais, e o `express generator` faz isso pra gente.
@@ -40,7 +36,19 @@ O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que co
 
 (6) Acessar o navegador, na pasta `localhost:3000`
 
-<hr>
+### Firebase
+
+A URL para instalação do FireBase é  `https://firebase.google.com/`
+ 1. Ir para o console;
+ 2. Criar um projeto;
+ 2.1. Acesse o menu de desenvolvedor;
+ 2.2. Acesse a opção de DataBase;
+ 2.3. Escolher a opção "Realtime Database"
+ 2.4. Iniciar no modo de teste;
+ 3. Importar o banco de dado no nosso projeto
+ 3.1. 
+ 
+ 
 
 ## Ensinamentos
 
@@ -55,8 +63,6 @@ O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que co
  - <b>ajax.upload.onprogress</b>: Para calcular a progresso de envio de um arquivo
  - <b></b>:
  
-<hr>
-
 ## Rodando a aplicação
 
 ### Backend
@@ -88,8 +94,6 @@ $ npm start
 > node ./bin/www 
 ```
 - Acesse o browser com a `URL: http://localhost:3000/`
-
-<hr>
 
 ### Layout do Frontend
 ![DropBox Clone](https://firebasestorage.googleapis.com/v0/b/hcode-com-br.appspot.com/o/DropBoxClone.jpg?alt=media&token=d59cad0c-440d-4516-88f2-da904b9bb443)
