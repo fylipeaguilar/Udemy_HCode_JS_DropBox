@@ -65,7 +65,7 @@ O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que co
  - Execute o comando `node index`
   
 <b>Resposta esperada</b>:
-
+```
 /Projeto_Gerenciamento_Usuario_Restful/backend (master)
 $ node index
 consign v0.1.6 Initialized in D:\Cursos_Aprendizados\Udemy\JavaScript_HCode\Projeto_Gerenciamento_Usuario_Restful\backend
@@ -74,7 +74,7 @@ consign v0.1.6 Initialized in D:\Cursos_Aprendizados\Udemy\JavaScript_HCode\Proj
 + .\utils\error.js
 + .\utils\validator.js
 O servidor está rodando...
-
+```
 ### Frontend
  
  - Acesse a pasta ~/Projeto_Gerenciamento_Usuario_Restful/management-user-restful
@@ -83,10 +83,10 @@ O servidor está rodando...
 <b> Resposta esperada</b>: 
 Projeto_Gerenciamento_Usuario_Restful/management-user-restful (master)
 $ npm start
-
+```
 > management-user-restful@0.0.0 start D:\Cursos_Aprendizados\Udemy\JavaScript_HCode\Projeto_Gerenciamento_Usuario_Restful\management-user-restful
 > node ./bin/www 
-
+```
 - Acesse o browser com a `URL: http://localhost:3000/`
 
 <hr>
