@@ -53,13 +53,14 @@ O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que co
 ### Firebase
 
 A URL para instalação do FireBase é  `https://firebase.google.com/`
- 1. Ir para o console;
- 2. Criar um projeto;
- 2.1. Acesse o menu de desenvolvedor;
- 2.2. Acesse a opção de DataBase;
- 2.3. Escolher a opção "Realtime Database"
- 2.4. Iniciar no modo de teste;
- 2.5. Copiar os dados gerados dentro do arquivo `index.ejs` 
+ 
+1. Ir para o console;
+2. Criar um projeto;
+2.1. Acesse o menu de desenvolvedor;
+2.2. Acesse a opção de DataBase;
+2.3. Escolher a opção "Realtime Database"
+2.4. Iniciar no modo de teste;
+2.5. Copiar os dados gerados dentro do arquivo `index.ejs` 
  
  ```
  <!-- ********* Configuração para usar o firebase ************************ -->
@@ -71,7 +72,7 @@ A URL para instalação do FireBase é  `https://firebase.google.com/`
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
     <!-- ********************************************************************* -->
  ```
- 2.6. Copiar os dados gerados dentro do arquivo `DropBoxController.ejs` 
+2.6. Copiar os dados gerados dentro do arquivo `DropBoxController.ejs` 
  
  (Dentro do construtor da classe)
  ```
