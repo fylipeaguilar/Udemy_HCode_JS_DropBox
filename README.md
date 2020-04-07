@@ -8,6 +8,8 @@ O projeto tem o objeto de .......
 
 Abaixo estou listando os comando para instalar e configurar as dependências do front e backend.
 
+<hr>
+
 ### Frontend - Bower
 
 Para não subir arquivos desnecessários, a configuração do layout do frontend está no arquivo "bower.json". 
@@ -24,6 +26,8 @@ Para não subir arquivos desnecessários, a configuração do layout do frontend
   
  (5) Instalando o formidable: `npm install formidable --save`
 
+<hr>
+
 ### Backend - Express
 
 O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que configura os arquivos principais, e o `express generator` faz isso pra gente.
@@ -35,6 +39,8 @@ O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que co
 (5) Para subir o `express`, basta executar o comando `npm start` no diretório `app`
 
 (6) Acessar o navegador, na pasta `localhost:3000`
+
+<hr>
 
 ## Ensinamentos
 
@@ -49,11 +55,41 @@ O express pode ser feito na "mão" ou usar um "boilerplate" que é aquele que co
  - <b>ajax.upload.onprogress</b>: Para calcular a progresso de envio de um arquivo
  - <b></b>:
  
- 
- 
- 
+<hr>
 
-Descrever.....
+## Rodando a aplicação
+
+### Backend
+
+ - Acesse a pasta ~/Projeto_Gerenciamento_Usuario_Restful/backend
+ - Execute o comando `node index`
+  
+<b>Resposta esperada</b>:
+
+/Projeto_Gerenciamento_Usuario_Restful/backend (master)
+$ node index
+consign v0.1.6 Initialized in D:\Cursos_Aprendizados\Udemy\JavaScript_HCode\Projeto_Gerenciamento_Usuario_Restful\backend
++ .\routes\index.js
++ .\routes\users.js
++ .\utils\error.js
++ .\utils\validator.js
+O servidor está rodando...
+
+### Frontend
+ 
+ - Acesse a pasta ~/Projeto_Gerenciamento_Usuario_Restful/management-user-restful
+ - Execute o comando `npm start`
+ 
+<b> Resposta esperada</b>: 
+Projeto_Gerenciamento_Usuario_Restful/management-user-restful (master)
+$ npm start
+
+> management-user-restful@0.0.0 start D:\Cursos_Aprendizados\Udemy\JavaScript_HCode\Projeto_Gerenciamento_Usuario_Restful\management-user-restful
+> node ./bin/www 
+
+- Acesse o browser com a `URL: http://localhost:3000/`
+
+<hr>
 
 ### Layout do Frontend
 ![DropBox Clone](https://firebasestorage.googleapis.com/v0/b/hcode-com-br.appspot.com/o/DropBoxClone.jpg?alt=media&token=d59cad0c-440d-4516-88f2-da904b9bb443)
