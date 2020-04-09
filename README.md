@@ -4,6 +4,19 @@ Desenvolvi esse projeto no curso da Udemy com os instrutores da HCode.
 
 O projeto tem o objeto de .......
 
+## Ensinamentos
+
+ - <b>Seleção de elemento HTML</b>: document.querySelector('#id')
+ - <b>Adicionar eventos de click</b>: addEventListener('click', event => {})
+ - <b>Adicionar eventos de mudança de arquivos</b>: addEventListener('change', event => {})
+ - <b>Exibição de modal</b>: (elementoHMTL).<b>style.display = 'block'</b>
+ - <b>Promises</b>: new Promise((resolve, reject ) => {}) / Promise.all(promise)
+ - <b>Uso do Ajax para requisições</b>: XMLHttpRequest() /  ajax.open('param', 'param') / ajax.onload / ajax.onerror / ajax.send
+ - <b>formData</b>: Para ler os aquivos da API FormData / formData.append('elementoHMTL', variável)
+ - <b>formidable</b>: usado para .... 
+ - <b>ajax.upload.onprogress</b>: Para calcular a progresso de envio de um arquivo
+ - <b>Firebase</b>: Usando o firebase com nosso banco de dados não relacional
+
 ## Instalação e Configuração 
 
 Abaixo estou listando os comando para instalar e configurar as dependências do front e backend.
@@ -47,52 +60,22 @@ A URL para instalação do FireBase é  `https://firebase.google.com/`
    - Escolher a opção "Realtime Database"
    - Iniciar no modo de teste;
 3. Importar o banco de dado no nosso projeto
-   - 
- 
- 
-
-## Ensinamentos
-
- - <b>Seleção de elemento HTML</b>: document.querySelector('#id')
- - <b>Adicionar eventos de click</b>: addEventListener('click', event => {})
- - <b>Adicionar eventos de mudança de arquivos</b>: addEventListener('change', event => {})
- - <b>Exibição de modal</b>: (elementoHMTL).<b>style.display = 'block'</b>
- - <b>Promises</b>: new Promise((resolve, reject ) => {}) / Promise.all(promise)
- - <b>Uso do Ajax para requisições</b>: XMLHttpRequest() /  ajax.open('param', 'param') / ajax.onload / ajax.onerror / ajax.send
- - <b>formData</b>: Para ler os aquivos da API FormData / formData.append('elementoHMTL', variável)
- - <b>formidable</b>: usado para .... 
- - <b>ajax.upload.onprogress</b>: Para calcular a progresso de envio de um arquivo
- - <b></b>:
+   - Firebase (https://console.firebase.google.com/)
  
 ## Rodando a aplicação
 
-### Backend
+### Backend e Frontend
 
- - Acesse a pasta ~/Projeto_Gerenciamento_Usuario_Restful/backend
- - Execute o comando `node index`
+ - Acesse a pasta ~/~JavaScript_HCode/Projeto_DropBox/app
+ - Execute o comando `npm start`
   
 <b>Resposta esperada</b>:
 ```
-/Projeto_Gerenciamento_Usuario_Restful/backend (master)
-$ node index
-consign v0.1.6 Initialized in D:\Cursos_Aprendizados\Udemy\JavaScript_HCode\Projeto_Gerenciamento_Usuario_Restful\backend
-+ .\routes\index.js
-+ .\routes\users.js
-+ .\utils\error.js
-+ .\utils\validator.js
-O servidor está rodando...
-```
-### Frontend
- 
- - Acesse a pasta ~/Projeto_Gerenciamento_Usuario_Restful/management-user-restful
- - Execute o comando `npm start`
- 
-<b> Resposta esperada</b>: 
-Projeto_Gerenciamento_Usuario_Restful/management-user-restful (master)
+~JavaScript_HCode/Projeto_DropBox/app (master)
 $ npm start
-```
-> management-user-restful@0.0.0 start D:\Cursos_Aprendizados\Udemy\JavaScript_HCode\Projeto_Gerenciamento_Usuario_Restful\management-user-restful
-> node ./bin/www 
+
+> app@0.0.0 start D:\Cursos_Aprendizados\Udemy\JavaScript_HCode\Projeto_DropBox\app_DropBox\app
+> node ./bin/www
 ```
 - Acesse o browser com a `URL: http://localhost:3000/`
 
