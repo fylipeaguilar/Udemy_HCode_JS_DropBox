@@ -16,6 +16,10 @@ O projeto tem o objeto de .......
  - <b>formidable</b>: usado para .... 
  - <b>ajax.upload.onprogress</b>: Para calcular a progresso de envio de um arquivo
  - <b>Firebase</b>: Usando o firebase com nosso banco de dados não relacional
+      - Database: Armazena as referencias dos dados;
+      - Storage: Armazena os dados (o arquivo);
+ - <b>Navegação de pastas</b>: 
+ 
 
 ## Instalação e Configuração 
 
